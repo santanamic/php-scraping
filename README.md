@@ -70,17 +70,17 @@ If you discover any security related issues, please email @example.com instead o
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/php-scraping/php-scraping.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/santanamic/php-scraping.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/php-scraping/php-scraping/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/php-scraping/php-scraping.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/php-scraping/php-scraping.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/php-scraping/php-scraping.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/santanamic/php-scraping/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/santanamic/php-scraping.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/santanamic/php-scraping.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/santanamic/php-scraping.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/php-scraping/php-scraping
-[link-travis]: https://travis-ci.org/php-scraping/php-scraping
-[link-scrutinizer]: https://scrutinizer-ci.com/g/php-scraping/php-scraping/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/php-scraping/php-scraping
-[link-downloads]: https://packagist.org/packages/php-scraping/php-scraping
+[link-packagist]: https://packagist.org/packages/santanamic/php-scraping
+[link-travis]: https://travis-ci.org/santanamic/php-scraping
+[link-scrutinizer]: https://scrutinizer-ci.com/g/santanamic/php-scraping/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/santanamic/php-scraping
+[link-downloads]: https://packagist.org/packages/santanamic/php-scraping
 [link-author]: https://github.com/
 [link-contributors]: ../../contributors
