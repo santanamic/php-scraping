@@ -41,7 +41,7 @@ class Load
      *
      */
     
-    public static function LoadInstance(string $html) : \DOMXPath
+    public static function loadInstance(string $html) : \DOMXPath
     {
         libxml_use_internal_errors(true);
         
@@ -65,6 +65,6 @@ class Load
     {
         $html = self::loadHTML($url);
         
-        return self::LoadInstance($html);
+        return self::loadInstance($html);
     }
 }
