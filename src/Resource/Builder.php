@@ -18,5 +18,5 @@ namespace PHPScraping\Resource;
 
 class Builder extends AbstractBuilder
 {
-    use Extension\MetaData, Extension\YugiohFandom;
+    use Extension\MetaData;
 }
