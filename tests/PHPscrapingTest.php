@@ -61,12 +61,12 @@ class PHPscrapingTest extends \PHPUnit\Framework\TestCase
      *
      */
         
-        //print("\n\n TEST FOR URL: $url\n");
+        print("\n\n TEST FOR URL: $url\n");
         
         foreach ($parameter as $key => $value) {
-            //print("\n\n $key VALUE GOT: $value[0]\n\n $key EXPECTED VALUE: $value[1]\n\n");
+            print("\n\n $key VALUE GOT: $value[0]\n\n $key EXPECTED VALUE: $value[1]\n\n");
             
-           // print($value[0] === $value[1] ? "\n [SUCCESS] \n\n" : "\n [FAIL] \n\n");
+           print($value[0] === $value[1] ? "\n [SUCCESS] \n\n" : "\n [FAIL] \n\n");
     
     /**
      *
@@ -77,7 +77,7 @@ class PHPscrapingTest extends \PHPUnit\Framework\TestCase
             $this->assertEquals($value[0], $value[1]);
         }
 
-        //print("\n=============================================\n");
+        print("\n=============================================\n");
     }
 
     /**
