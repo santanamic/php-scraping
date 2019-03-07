@@ -1,28 +1,23 @@
 language: php
 
-sudo: false
-
-env:
-  global:
-    - DEFAULT_COMPOSER_FLAGS="--no-interaction --no-ansi --no-progress --no-suggest"
-
-before_install:
-    - composer clear-cache
-
 php:
     - 7.2
 
-branches:
-  only: master
+matrix:
+    fast_finish: true
+
+cache:
+    directories:
+        - $HOME/.composer/cache
+
+before_install:
+    - travis_retry composer self-update
 
 install:
-  - travis_retry composer update --prefer-dist --prefer-stable
+    - travis_retry composer install --no-interaction --prefer-dist
 
 script:
-  - ls $TRAVIS_BUILD_DIR
-  - ls $TRAVIS_BUILD_DIR/Tests
-  - ls $TRAVIS_BUILD_DIR/vendor/bin/phpunit
-  - $TRAVIS_BUILD_DIR/vendor/bin/phpunit $TRAVIS_BUILD_DIR/Tests/EnvparserTest.php --coverage-clover=coverage.xml
+    - vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
 
-notifications:
-  email: false
+after_success:
+    - wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover coverage.clover
