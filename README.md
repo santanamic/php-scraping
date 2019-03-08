@@ -2,8 +2,9 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
+[![PHP Version][ico-php-version]][link-php]
+[![Coverage Status][ico-codecov]][link-codecov]
 [![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-php-version]][link-php]
 [![Total Downloads][ico-downloads]][link-downloads]
 
 Web scraping in PHP is a class of data collection used to extract data from websites.
@@ -74,10 +75,12 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-travis]: https://img.shields.io/travis/santanamic/php-scraping/master.svg?style=flat-square
 [ico-php-version]: https://img.shields.io/badge/php->=7.1-8892BF.svg
 [ico-downloads]: https://img.shields.io/packagist/dt/santanamic/php-scraping.svg?style=flat-square
+[ico-codecov]: https://codecov.io/gh/santanamic/php-scraping/branch/master/graph/badge.svg
 
 [link-packagist]: https://packagist.org/packages/santanamic/php-scraping
 [link-travis]: https://travis-ci.org/santanamic/php-scraping
 [link-php]: https://php.net/
 [link-downloads]: https://packagist.org/packages/santanamic/php-scraping
+[link-codecov]: https://codecov.io/gh/santanamic/php-scraping
 [link-author]: https://github.com/
 [link-contributors]: ../../contributors
